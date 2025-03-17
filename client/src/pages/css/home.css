@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;  
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.logo img {
+    float: left;
+    height: 300px;
+    border-radius: 1rem;
+    margin: 100px;
+    transition: ease-in-out 200ms;
+}
+
+.logo img:hover {
+    border: 5px solid white;
+    padding: 5px;
+}

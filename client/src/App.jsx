@@ -1,12 +1,18 @@
-import './App.css'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+
+import Header from './components/Header';
+
+import './index.css';
 
 function App() {
-
   return (
-    <div>
-      <h1>Welcome to Operation Homefront</h1>
-    </div>
-  )
-}
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;
