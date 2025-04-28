@@ -1,9 +1,8 @@
 .main-container {
     display: flex;
-    flex-direction: column;
-    text-align: center;
     position: relative;
     z-index: 2;
+    align-items: center;
 }
 
 .hero {
@@ -31,6 +30,9 @@
 }
 
 .logo img:hover {
-    border: 5px solid white;
-    padding: 5px;
+    transform: scale(0.9);
+}
+
+.mission strong {
+    font-size: 1.4rem;
 }

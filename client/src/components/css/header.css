@@ -1,5 +1,9 @@
 .header {
     width: 100vw;
-
     background-color: black;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: white;
 }
